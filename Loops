@@ -1,0 +1,7 @@
+usernames = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+
+# write your for loop here
+for a in range(len(usernames)):
+  usernames [a] = usernames[a].lower.replace(' ', '_')
+
+print(usernames)
